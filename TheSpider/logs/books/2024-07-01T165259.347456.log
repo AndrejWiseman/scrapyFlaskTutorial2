@@ -1,0 +1,67 @@
+2024-07-01 16:52:59 [scrapy] DEBUG: Crawled (404) <GET https://books.toscrape.com/robots.txt> (referer: None)
+2024-07-01 16:53:00 [scrapy] DEBUG: Crawled (200) <GET https://books.toscrape.com/catalogue/page-2.html> (referer: None)
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['In Her Wake'], 'Price': ['£12.84']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['How Music Works'], 'Price': ['£37.32']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More'], 'Price': ['£30.52']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Chase Me (Paris Nights #2)'], 'Price': ['£25.27']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Black Dust'], 'Price': ['£34.53']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Birdsong: A Story in Pictures'], 'Price': ['£54.64']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ["America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana"], 'Price': ['£22.50']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Aladdin and His Wonderful Lamp'], 'Price': ['£53.13']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Worlds Elsewhere: Journeys Around Shakespeare’s Globe'], 'Price': ['£40.30']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Wall and Piece'], 'Price': ['£44.18']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['The Four Agreements: A Practical Guide to Personal Freedom'], 'Price': ['£17.66']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['The Five Love Languages: How to Express Heartfelt Commitment to Your Mate'], 'Price': ['£31.05']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['The Elephant Tree'], 'Price': ['£23.82']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['The Bear and the Piano'], 'Price': ['£36.89']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ["Sophie's World"], 'Price': ['£15.94']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Penny Maybe'], 'Price': ['£33.29']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Maude (1883-1993):She Grew Up with the country'], 'Price': ['£18.02']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['In a Dark, Dark Wood'], 'Price': ['£19.63']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ['Behind Closed Doors'], 'Price': ['£52.22']}
+2024-07-01 16:53:00 [scrapy] DEBUG: Scraped from <200 https://books.toscrape.com/catalogue/page-2.html>
+{'Title': ["You can't bury them all: Poems"], 'Price': ['£33.63']}
+2024-07-01 16:53:00 [scrapy] INFO: Closing spider (finished)
+2024-07-01 16:53:00 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 469,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 51466,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.96161,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 7, 1, 14, 53, 0, 317080, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2024, 7, 1, 14, 52, 59, 355470, tzinfo=datetime.timezone.utc)}
+2024-07-01 16:53:00 [scrapy] INFO: Spider closed (finished)

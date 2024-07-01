@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data scraped</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <script src="http://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+</head>
+<body>
+    <h3>Scraped data</h3>
+
+    <div class=page>
+
+        {% for table in tables %}
+            {{ table | safe }}
+        {% endfor %}
+
+    </div>
+
+</body>
+</html>
